@@ -1,4 +1,4 @@
-### Skills-Stack Mock API 
+### Mock API 
 
 # Usage
 - Download the repository, and the Git Shell on Windows.
