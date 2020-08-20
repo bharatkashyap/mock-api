@@ -1,12 +1,13 @@
 const express = require('express');
 const axios = require('axios');
+const index = require('./frontend');
 const bodyParser = require('body-parser');
 
 const server = express();
 server.use(bodyParser.json());
 
 const hello = (req, res, next) => {
-    res.send('Hello World!');
+    res.send('hello');
 }
 
 const jsonBin = {
@@ -34,6 +35,7 @@ const idFields = {
 }
 
 const paths = ['/trainee', '/employer', '/trainingInstitute', '/awardingBody', '/assessmentAgency', '/course', '/batch', '/qp', '/vacancy'];
+
 
 const create = async (req, res, next) => {
     const path = req.path.replace('/', '');
@@ -87,11 +89,11 @@ const update = async (req, res, next) => {
 server.get('/', hello);
 
 paths.forEach( path => {
-    server.post(path, create);
-    server.get(path, getMany);
-    server.patch(path, update);
-    server.get(`${path}/:${path.replace('/', '')}Id`, getOne);
-});
+        server.post(path, create);
+        server.get(path, getMany);
+        server.patch(path, update);
+        server.get(`${path}/:${path.replace('/', '')}Id`, getOne);
+    });
 
 
 
