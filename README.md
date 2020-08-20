@@ -9,7 +9,10 @@
 # Extending the API for more resources
 
 - Create new JSON Bin [here](https://jsonbin.io/) and add it to the `jsonBin` array - for instance, `https://api.jsonbin.io/b/5f3a5c31b88c04101cf59111/latest`.
-- Add resource names and unique ID fields in the `paths` and `idFields ` array with functions and paths for the new resource. - 
+- Add resource names to `paths` and unique ID fields to the `idFields ` array.
+
+- Examples:
+
 - **jsonBin**
 ```
 jsonBin = {
@@ -41,6 +44,8 @@ idFields = {
 
 - **paths**
 
-`paths = ['/trainee', '/employer', '/trainingInstitute', '/awardingBody', '/assessmentAgency', '/course', '/batch', '/qp', '/vacancy'];`
+```
+paths = ['/trainee', '/employer', '/trainingInstitute', '/awardingBody', '/assessmentAgency', '/course', '/batch', '/qp', '/vacancy';`
+```
 
 - That's it! No code needed. Test the APIs using cURL, or Postman.
