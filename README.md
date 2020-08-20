@@ -40,6 +40,7 @@ idFields = {
 ```
 
 - **paths**
+
 `paths = ['/trainee', '/employer', '/trainingInstitute', '/awardingBody', '/assessmentAgency', '/course', '/batch', '/qp', '/vacancy'];`
 
 - That's it! No code needed. Test the APIs using cURL, or Postman.
