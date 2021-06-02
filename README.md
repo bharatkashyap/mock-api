@@ -1,6 +1,6 @@
 # Mock-API 
 
-Lightweight, open-source mock-API creator. Store data on [JSONBin](https://jsonbin.io), provide a URL to it and provide a `path` to listen to. That's it. 
+Low-code, open-source mock-API creator. Store data on [JSONBin](https://jsonbin.io), provide a URL to it and provide a `path` to listen to.  
 
 ### Usage
 
