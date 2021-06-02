@@ -1,6 +1,6 @@
 # Mock-API 
 
-Lightweight, open-source mock-API creator. No app installations needed (Mockend). Data stored on [JSONBin](https://jsonbin.io).
+Lightweight, open-source mock-API creator. Store data on [JSONBin](https://jsonbin.io), provide a URL to it and provide a `path` to listen to. That's it. 
 
 ### Usage
 - Download the repository, and the Git Shell on Windows.
