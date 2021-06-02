@@ -1,12 +1,14 @@
-### Mock API 
+Mock API 
 
-# Usage
+Lightweight, open-source mock-API creator. No app installations needed (Mockend). Data stored on [JSONBin](https://jsonbin.io).
+
+### Usage
 - Download the repository, and the Git Shell on Windows.
 - Navigate to the repository folder `cd/mock-api`
 - `npm install -g nodemon`
 - `nodemon index.js`
 
-# Extending the API for more resources
+### Extending the API for more resources
 
 - Create new JSON Bin [here](https://jsonbin.io/) and add it to the `jsonBin` array - for instance, `https://api.jsonbin.io/b/5f3a5c31b88c04101cf59111/latest`.
 - Add resource names to `paths` and unique ID fields to the `idFields ` array.
