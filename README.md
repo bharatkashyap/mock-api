@@ -2,7 +2,7 @@
 
 # Usage
 - Download the repository, and the Git Shell on Windows.
-- Navigate to the repository folder `cd/Downloads/skills-stack-mock-api`
+- Navigate to the repository folder `cd/mock-api`
 - `npm install -g nodemon`
 - `nodemon index.js`
 
