@@ -5,7 +5,7 @@ Low-code, open-source mock-API creator. Store data on [JSONBin](https://jsonbin.
 ### Usage
 
 - Clone this repository locally.
-- Create new JSON Bin [here](https://jsonbin.io/) and add it to the `jsonBin` array - for instance, `https://api.jsonbin.io/b/5f3a5c31b88c04101cf59111/latest`.
+- Create new JSONBin [here](https://jsonbin.io/) and add it to the `jsonBin` array - for instance, `https://api.jsonbin.io/b/5f3a5c31b88c04101cf59111/latest`.
 - Add resource names to `paths` and unique ID fields to the `idFields ` array.
 
 - Examples:
